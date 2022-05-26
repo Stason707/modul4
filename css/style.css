@@ -64,7 +64,6 @@
 .content {
     text-align: center;
     color: rgb(3, 54, 101);
-    min-height: 100%
 }
 .footer {
     text-align: center;
@@ -85,8 +84,14 @@ ol, ul, li {
 }
 .scale img {
     display: block;
-    transition: 1s;
+    transition: .2s;
 }
 .scale img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
    }
+.realty {
+	font-size: 15px;
+}
+.input {
+    margin-bottom: 20px;
+}

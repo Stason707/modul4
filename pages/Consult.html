@@ -7,6 +7,7 @@
     <title>My first site</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/reset.css">
+    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code">
 </head>
 <body class="body">
     <div class="container">
@@ -28,11 +29,31 @@
     </nav>
     <main class="content">
         <h1>Есть вопросы по недвижимости?</h1>
-        <article class="contentbar"></article>
-        <section class="contenttxt"></section>
-        <section class="contenttxt"></section>
-        <section class="contenttxt"></section>
-        <aside class="sidebar"></aside>
+        <article class="contentbar">
+            <h2>Бесплатная консультация по вопросам недвижимости в Краснодаре и Краснодарском крае</h2>
+            <form>
+                <p>Как вас зовут: <input class="input" type="text" name="name" placeholder="Введите имя" required="required"></p>
+                <p>Как с вами связаться: <input class="input" type="text" name="phone" placeholder="введите номер телефона" required="required"></p>
+                <p>Выберете тип недвижимости, в отношении которой вопрос:</p>
+                <br>
+                <select class="realty">
+                    <option label=""></option>
+                    <option label="flat" selected>Квартира</option>
+                    <option label="house">Загородный дом</option>
+                    <option label="Сommerc">Коммерческая недвижимость</option>
+                </select>
+                <br>
+                <br>
+                <p>Вы хотите:</p>
+                Купить <input class="input" type="radio" name="bay" checked>
+                Продать <input class="input" type="radio" name="bay">
+                Ипотечная консультация <input class="input" type="radio" name="bay">
+                Юридическое сопровождение <input class="input" type="radio" name="bY">
+                <br>
+                <br>
+                <input class="input" type="submit">
+            </form>
+        </article>
     </main>
     </div>
     <footer class="footer">
