@@ -1,23 +1,23 @@
-<!DOCTYPE html5>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first site</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code">
+    <link rel="stylesheet" href="/css/reset.css" type="text/css"><!--Сброс типовых стилей для обеспечения корректной кросбраузерной работы-->
+    <link rel="stylesheet" href="/css/style.css" type="text/css"><!--Подключил стили СSS-->
+    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code"><!--Добавляю Фавикон-->
 </head>
 <body class="body">
     <div class="container">
         <header class="header">
-            <article class="titleblock">
-                <h1>Профессия Front-End Dev</h1>
-            </article> 
-            <aside class="userpic">
-                <img src="/images/userpic.png" alt="WebDev" width="150" height="150">
-            </aside>
+            <div class="titleblock">
+                Профессия Front-End Dev
+            </div> 
+            <div class="userpic">
+                <img src="/images/userpic.png" alt="WebDev" width="150" height="150"><!--Не понимаю, почему через margin не получается оцентровать картинку-->
+            </div>
         </header>
         <nav class="navigation">
             <div>
@@ -28,10 +28,11 @@
             </div>
         </nav>
         <main class="content">
-        <h2>Познакомимся?</h2>
             <article class="contentbar">
+                <h1>Познакомимся?</h1>
                 <p>Меня зовут Стас и я автор этого сайта. По качеству и визуализации легко понять, что мне еще только предстоит освоить профессию <b>Фронт-энд разработчика</b></p>
                 <p>Работа с кодом - для меня новый и увлекательный процесс. За время прохождения начальных модулей я изучил и освоил много полезных интрументов hазработчика, таких как:</p>
+                    <br>
                     <ul>
                         <li>Работа с <b>GIT и GitHub</b></li>
                         <li>Язык разметки <b>MarkDown</b></li>
@@ -46,7 +47,7 @@
                 <p><img src="/images/pngegg.png" alt="" class="scale" width="250" height="250"></p>
                 <p><img src="/images/css.png" alt="" class="scale" width="250" height="250"></p>
             </aside>
-            <p>Уверен, в процессе обучения будет очень интересно! О своих успехах в направлении Front-End постараюсь писать здесь</p>
+            <h3>Уверен, в процессе обучения будет очень интересно!</h3>
         </main>
     </div>
     <footer class="footer">

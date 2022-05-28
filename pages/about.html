@@ -1,23 +1,23 @@
-<!DOCTYPE html5>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first site</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code">
+    <link rel="stylesheet" href="/css/reset.css" type="text/css"><!--Сброс типовых стилей для обеспечения корректной кросбраузерной работы-->
+    <link rel="stylesheet" href="/css/style.css" type="text/css"><!--Подключил стили СSS-->
+    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code"><!--Добавляю Фавикон-->
 </head>
 <body class="body">
     <div class="container">
         <header class="header">
-            <article class="titleblock">
-                <h1>Профессия Front-End Dev</h1>
-            </article> 
-            <aside class="userpic">
-                <img src="/images/userpic.png" alt="WebDev" width="150" height="150">
-            </aside>
+            <div class="titleblock">
+                Профессия Front-End Dev
+            </div> 
+            <div class="userpic">
+                <img src="/images/userpic.png" alt="WebDev" width="150" height="150"><!--Не понимаю, почему через margin не получается оцентровать картинку-->
+            </div>
         </header>
     <nav class="navigation">
         <div>
@@ -28,8 +28,8 @@
         </div>
     </nav>
     <main class="content">
-        <h1>Кто же я такой</h1>
         <article class="contentbar">
+            <h1>Кто же я такой</h1>
             <p>Меня зовут Станислав и я занимаюсь сделками с недвижимостью в Краснодаре. Больше 7 лет я помогаю клиентам решать квартирный вопрос. С конца 2019 года и по настоящий момент недвижимость в крупных и востребованных городах РФ подорожала более чем вдвое. На рынке происходило достаточно много спекуляций. На мой взгляд, <strong>причин взрывного роста</strong> не так уж и много:</p>
             <br>
             <ol>
@@ -40,10 +40,6 @@
                 <li>Спекуляции граждан</li>
             </ol>
         </article>
-        <section class="contenttxt"></section>
-        <section class="contenttxt"></section>
-        <section class="contenttxt"></section>
-        <aside class="sidebar"></aside>
     </main>
     </div>
     <footer class="footer">

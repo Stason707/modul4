@@ -7,7 +7,7 @@
 }
 .container {
     width: 1200px;
-    min-height: 1000px;
+    min-height: 1300px;
     border: 7px solid rgb(120, 196, 243);
     margin: 0 auto;
     margin-top: 10 auto;
@@ -23,7 +23,8 @@
     align-items: center;
     width: 75%;
     height: 100%;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bolder;
     color: rgb(249, 191, 104);
     margin-right: 2px;
     background: url(/images/backgroundtitle.png) no-repeat center center / cover;
@@ -35,11 +36,9 @@
     background: url(/images/backgroundtitle.png) no-repeat center center / cover;
 }
 .userpic img {
-    padding-left: 60;
-    padding-top: 23;
+    padding: auto;
 }
 .navigation div {
-
     display: flex;
     background: rgb(120, 196, 243);
     text-decoration: none;
@@ -52,9 +51,7 @@
     padding-left: 60px;
     color: rgb(41, 73, 98);
     text-decoration: none;
-    font-size:large;
-    font-weight: bold;
-    border-right: 2px solid rgb(81, 101, 135);
+    border-right: 3px solid rgb(255, 255, 255);
     transition: .2s;
 }
 .navigation a:hover {
@@ -62,8 +59,19 @@
     color: rgb(249, 191, 104);
 }
 .content {
-    text-align: center;
     color: rgb(3, 54, 101);
+}
+.content h3 {
+    margin-left: 30px;
+}
+.contentbar h1 {
+    text-align: center;
+}
+.contentbar h3 {
+    text-align: center;
+}
+.contentbar li {
+    padding: 20px;
 }
 .footer {
     text-align: center;
@@ -71,6 +79,7 @@
     margin-top:-40px;
 }
 .contentbar {
+    color: rgb(3, 54, 101);
     margin-left: 20px;
     text-align: left;
 }
@@ -81,6 +90,7 @@ ol, ul, li {
     display: flex;
     overflow: hidden;
     margin-left: 30px;
+    margin-top: 20px;
 }
 .scale img {
     display: block;

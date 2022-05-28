@@ -1,48 +1,46 @@
-<!DOCTYPE html5>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first site</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code">
+    <link rel="stylesheet" href="/css/reset.css" type="text/css"><!--Сброс типовых стилей для обеспечения корректной кросбраузерной работы-->
+    <link rel="stylesheet" href="/css/style.css" type="text/css"><!--Подключил стили СSS-->
+    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code"><!--Добавляю Фавикон-->
 </head>
 <body class="body">
     <div class="container">
-        <header class="header">
-            <article class="titleblock">
-                <h1>Профессия Front-End Dev</h1>
-            </article> 
-            <aside class="userpic">
-                <img src="/images/userpic.png" alt="WebDev" width="150" height="150">
-            </aside>
-        </header>
-    <nav class="navigation">
-        <div>
-            <a href="./index.html">Главная</a>
-            <a href="./about.html">Немного обо мне</a>
-            <a href="#">Контакты</a>
-            <a href="./Consult.html">Консультация</a>
-        </div>
-    </nav>
-    <main class="content">
-        <h1>Как со мной связаться</h1>
-        <article class="contentbar">
-            <article>
-                <p><h2>Связаться со мной можно разными способами:</h2></p>
-                <ul>
-                    <li>Почтой РФ по адресу: <b>г. Краснодар, ул. Красная, д. 1, оф. 1</b></li>
-                    <li>По телефону: <b>8 (861) 999-77-44</b></li>
-                    <li>По эл. почте: <b>krasnodaragent@mail.ru</b></li>
-                    <li>Почтовым голубем, отправив пернатого по координатам: <b>45.015760, 38.966474</b></li>
-                </ul>
-            </article> 
-
-        </article>
-        
-    </main>
+            <header class="header">
+                <div class="titleblock">
+                    Профессия Front-End Dev
+                </div> 
+                <div class="userpic">
+                    <img src="/images/userpic.png" alt="WebDev" width="150" height="150"><!--Не понимаю, почему через margin не получается оцентровать картинку-->
+                </div>
+            </header>
+        <nav class="navigation">
+            <div>
+                <a href="./index.html">Главная</a>
+                <a href="./about.html">Немного обо мне</a>
+                <a href="#">Контакты</a>
+                <a href="./Consult.html">Консультация</a>
+            </div>
+        </nav>
+        <main class="content">
+            <article class="contentbar">
+                <h1>Как со мной связаться</h1>
+                <section>
+                    <h2>Связаться со мной можно разными способами:</h2>
+                    <ul>
+                        <li>Почтой РФ по адресу: <b>г. Краснодар, ул. Красная, д. 1, оф. 1</b></li>
+                        <li>По телефону: <b>8 (861) 999-77-44</b></li>
+                        <li>По эл. почте: <b>krasnodaragent@mail.ru</b></li>
+                        <li>Почтовым голубем, отправив пернатого по координатам: <b>45.015760, 38.966474</b></li>
+                    </ul>
+                </section> 
+            </article>
+        </main>
     </div>
     <footer class="footer">
         <span>&copy;&nbsp;SNZubrovskiy Krasnodar 2022</span>

@@ -1,23 +1,23 @@
-<!DOCTYPE html5>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first site</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code">
+    <link rel="stylesheet" href="/css/reset.css" type="text/css"><!--Сброс типовых стилей для обеспечения корректной кросбраузерной работы-->
+    <link rel="stylesheet" href="/css/style.css" type="text/css"><!--Подключил стили СSS-->
+    <link rel="icon" href="/images/favicon.png" type="image/png" title="Code"><!--Добавляю Фавикон-->
 </head>
 <body class="body">
     <div class="container">
         <header class="header">
-            <article class="titleblock">
-                <h1>Профессия Front-End Dev</h1>
-            </article> 
-            <aside class="userpic">
-                <img src="/images/userpic.png" alt="WebDev" width="150" height="150">
-            </aside>
+            <div class="titleblock">
+                Профессия Front-End Dev
+            </div> 
+            <div class="userpic">
+                <img src="/images/userpic.png" alt="WebDev" width="150" height="150"><!--Не понимаю, почему через margin не получается оцентровать картинку-->
+            </div>
         </header>
     <nav class="navigation">
         <div>
@@ -27,17 +27,17 @@
             <a href="#">Консультация</a>
         </div>
     </nav>
-    <main class="content">
-        <h1>Есть вопросы по недвижимости?</h1>
+    <main>
         <article class="contentbar">
+            <h1>Есть вопросы по недвижимости?</h1>
             <h2>Бесплатная консультация по вопросам недвижимости в Краснодаре и Краснодарском крае</h2>
+            <br>
             <form>
                 <p>Как вас зовут: <input class="input" type="text" name="name" placeholder="Введите имя" required="required"></p>
                 <p>Как с вами связаться: <input class="input" type="text" name="phone" placeholder="введите номер телефона" required="required"></p>
                 <p>Выберете тип недвижимости, в отношении которой вопрос:</p>
                 <br>
                 <select class="realty">
-                    <option label=""></option>
                     <option label="flat" selected>Квартира</option>
                     <option label="house">Загородный дом</option>
                     <option label="Сommerc">Коммерческая недвижимость</option>
@@ -48,7 +48,7 @@
                 Купить <input class="input" type="radio" name="bay" checked>
                 Продать <input class="input" type="radio" name="bay">
                 Ипотечная консультация <input class="input" type="radio" name="bay">
-                Юридическое сопровождение <input class="input" type="radio" name="bY">
+                Юридическое сопровождение <input class="input" type="radio" name="bay">
                 <br>
                 <br>
                 <input class="input" type="submit">
