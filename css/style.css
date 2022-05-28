@@ -52,8 +52,9 @@
     padding: 20px;
     padding-left: 60px;
     color: rgb(41, 73, 98);
+    font-size:larger;
     text-decoration: none;
-    border-right: 3px solid rgb(255, 255, 255);
+    border-right: 2px solid rgba(0, 54, 142, 0.767);
     transition: .2s;
 }
 .navigation a:hover {
@@ -61,15 +62,10 @@
     color: rgb(249, 191, 104);
 }
 .content {
+    margin-left: 30px;
     color: rgb(3, 54, 101);
 }
-.content h3 {
-    margin-left: 30px;
-}
-.contentbar h1 {
-    text-align: center;
-}
-.contentbar h3 {
+.contentbar h1, h2, h3 {
     text-align: center;
 }
 .contentbar li {
@@ -106,4 +102,12 @@ ol, ul, li {
 }
 .input {
     margin-bottom: 20px;
+    padding: 15px;
+
+}
+.form {
+    border: 3px solid rgb(0, 21, 67);
+    margin: 20px;
+    padding: 25px;
+    font-size:large;
 }
