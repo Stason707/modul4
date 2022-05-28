@@ -4,6 +4,7 @@
     font-family: 'Raleway', sans-serif;
     background: url(/images/background.png);
     padding: 20px 0;
+    line-height: 1.5;
 }
 .container {
     width: 1200px;
@@ -36,7 +37,8 @@
     background: url(/images/backgroundtitle.png) no-repeat center center / cover;
 }
 .userpic img {
-    padding: auto;
+    margin-top: 25px;
+    margin-left: 75px;
 }
 .navigation div {
     display: flex;
